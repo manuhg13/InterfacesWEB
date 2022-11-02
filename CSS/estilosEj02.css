@@ -1,0 +1,12 @@
+body{
+    background-color: teal;
+    background-size: contain;
+    background-origin: content-box;
+
+    color: rgb(19, 3, 19);
+}
+h1{
+    margin: 40px;
+    padding: 10px;
+    border: solid crimson;
+}
