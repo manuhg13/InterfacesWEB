@@ -34,31 +34,36 @@ li{
 }
 
 
+table{
+    border-collapse: collapse;
+}
 
-
-th.claro{
+th:nth-child(even){
     border: solid black 2px;
     background-color: rgb(51, 51, 243);
     text-align: center;
     color: white;
     padding: 30px;
 }
-th.oscuro{
+th{
     border: solid black 2px;
     background-color: blue;
     text-align: center;
     color: white;
     padding: 30px;
 }
-td.gris{
+tr:nth-child(even){
     border: solid black 2px;
     background-color: grey;
     text-align: right;
     padding: 30px;
 }
-td.blanco{
+tr{
     border: solid black 2px;
     background-color: white;
     text-align: right;
     padding: 30px;
+}
+td{
+    border: solid black 2px;
 }
