@@ -1,5 +1,5 @@
 body{
-    background-color: teal;
+    background-color: coral;
     background-size: contain;
     background-origin: content-box;
 
@@ -9,4 +9,56 @@ h1{
     margin: 40px;
     padding: 10px;
     border: solid crimson;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    letter-spacing: 6px;
+    line-height: 50px;   
+}
+
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+    background-color: aliceblue;
+    text-decoration: underline;
+}
+
+li{
+    list-style:url(/IMG/Juan\ carlos.jpg);
+    margin-left: 200px;
+}
+
+
+
+
+th.claro{
+    border: solid black 2px;
+    background-color: rgb(51, 51, 243);
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+th.oscuro{
+    border: solid black 2px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+td.gris{
+    border: solid black 2px;
+    background-color: grey;
+    text-align: right;
+    padding: 30px;
+}
+td.blanco{
+    border: solid black 2px;
+    background-color: white;
+    text-align: right;
+    padding: 30px;
 }
