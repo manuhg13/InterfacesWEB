@@ -29,8 +29,7 @@ header > .buscar{
     
     height: 30px;
     text-align: center;
-    border-bottom: 2px solid black;
-
+    
 }
 header > .boton{
     background-color: crimson;
@@ -46,5 +45,7 @@ header{
     flex-direction: row;
     justify-content: left;
     align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
     
 }
