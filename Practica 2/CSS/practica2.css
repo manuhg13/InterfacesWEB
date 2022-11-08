@@ -18,3 +18,30 @@ p{
     background-color: yellow;
    
 }
+header > #buscador{
+    margin-left: 10px;
+    height: 30px;
+}
+header > .buscar{
+    background-color: crimson;
+    
+    height: 30px;
+    text-align: center;
+
+}
+header > .boton{
+    background-color: crimson;
+    color: antiquewhite;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    margin: 10px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    
+}
