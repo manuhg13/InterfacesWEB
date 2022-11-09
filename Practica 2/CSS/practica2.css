@@ -91,20 +91,24 @@ main{
 }
 section{
     display: flex;
+    
 }
 article{
+    display: flex;
     padding: 10px;
     margin: 10px;
     background-color: beige;
     border-radius: 10px;
     flex: 30%;
+    flex-wrap: wrap;
+    
 }
 img{
     width: 100px;
     float: left;
     margin-right: 10px;
 }
-section  > h1{
-    
+h1{
+    border-bottom: 2px solid black;
 }
 
