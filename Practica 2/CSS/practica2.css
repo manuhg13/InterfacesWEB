@@ -65,6 +65,8 @@ aside{
     background-color: lightgray;
     padding: 20px;
     flex: 30%;
+    flex-direction: column;
+    
 }
 
 aside a{
@@ -75,6 +77,7 @@ aside a{
     text-decoration: none;
     text-align: center;
     background-color: blue;
+    
 }
 
 /*-------Main-------*/
