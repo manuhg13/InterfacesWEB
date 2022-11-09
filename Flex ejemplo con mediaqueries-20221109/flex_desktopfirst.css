@@ -86,7 +86,7 @@ footer {
   text-align: center;
   background: #ddd;
 }
-/*
+
 @media screen and (max-width: 1000px){
     article {
         flex: 100%;
@@ -98,4 +98,3 @@ footer {
         flex-direction: column;
     }
 }
-*/
