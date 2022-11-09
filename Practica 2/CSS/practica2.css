@@ -55,5 +55,25 @@ header > .boton{
     padding: 5px;
     margin: 10px;
 }
+/*------------Aside--------------*/
 
+aside{
+    background-color: lightgray;
+    padding: 20px;
+    flex: 30%;
+}
 
+aside a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*-------Main-------*/
+main{
+    background-color: lightgray;
+    padding: 20px;
+    flex: 70%;
+    flex-wrap: wrap;
+}
