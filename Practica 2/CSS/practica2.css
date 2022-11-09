@@ -83,8 +83,25 @@ aside a{
 
 /*-------Main-------*/
 main{
+    display: flex;
     background-color: lightgray;
     padding: 10px;
     flex: 70%;
     flex-wrap: wrap;
 }
+article{
+    padding: 10px;
+    margin: 10px;
+    background-color: beige;
+    border-radius: 10px;
+    flex: 30%;
+}
+img{
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+section{
+    display: flex;
+}
+

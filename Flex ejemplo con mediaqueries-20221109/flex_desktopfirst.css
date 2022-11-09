@@ -58,6 +58,7 @@ main {
     
 /*Cada artículo ocupará el 30% */
 article{
+  display: flex;
     padding: 20px;
     margin: 10px;
     background-color: white;
