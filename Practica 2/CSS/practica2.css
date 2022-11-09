@@ -89,6 +89,9 @@ main{
     flex: 70%;
     flex-wrap: wrap;
 }
+section{
+    display: flex;
+}
 article{
     padding: 10px;
     margin: 10px;
@@ -101,7 +104,7 @@ img{
     float: left;
     margin-right: 10px;
 }
-section{
-    display: flex;
+section  > h1{
+    
 }
 
