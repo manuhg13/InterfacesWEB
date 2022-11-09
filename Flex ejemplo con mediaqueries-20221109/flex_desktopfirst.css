@@ -17,7 +17,7 @@ header {
 /* La barra de navegación es flex */
 nav {
     background-color: #333;
-    /*display: flex;*/
+    display: flex;
 }
 
 /* Propiedades de los enlaces de la barra de navegación */
@@ -35,25 +35,25 @@ nav a:hover {
 
 /* El contenedor principal es flex y permite colapsar -wrap- */
 .row {  
-    /*display:flex;
-    flex-wrap: wrap;*/
+    display:flex;
+    flex-wrap: wrap;
 }
 
 /* Columna izquierda */
 aside {
     background-color: #f1f1f1;
     padding: 20px;
-    /*flex: 30%;*/
+    flex: 30%;
 }
 
 /* Cuerpo de la página */
 main {
     background-color:thistle;
     padding: 20px;
-    /*flex: 70%;
+    flex: 70%;
     
     display: flex;
-    flex-wrap: wrap;*/
+    flex-wrap: wrap;
 }
     
 /*Cada artículo ocupará el 30% */
@@ -62,7 +62,7 @@ article{
     margin: 10px;
     background-color: white;
     border-radius: 10px;
-    /*flex: 30%;*/
+    flex: 30%;
 }
 
 /* Imagenes */
