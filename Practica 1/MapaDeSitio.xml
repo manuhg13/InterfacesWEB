@@ -6,17 +6,17 @@
 		<lastmod>2022-11-08</lastmod>
 	</url>
 	<url>
-		<loc>http://www.mapaDeSitio/Practica 1</loc>
-		<priority>0.75</priority>
-		<lastmod>2022-11-02</lastmod>
-	</url>
-	<url>
 		<loc>http://www.mapaDeSitio/Practica 2</loc>
 		<priority>0.75</priority>
 		<lastmod>2022-11-09</lastmod>
 	</url>
 	<url>
-		<loc>http://www.mapaDeSitio/Flex/plantillaFlex.html</loc>
+		<loc>http://www.mapaDeSitio/Practica 1</loc>
+		<priority>0.75</priority>
+		<lastmod>2022-11-02</lastmod>
+	</url>
+	<url>
+		<loc>http://www.mapaDeSitio/Apuntes/ejemplos.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2022-11-08</lastmod>
 	</url>
@@ -26,7 +26,7 @@
 		<lastmod>2022-11-02</lastmod>
 	</url>
 	<url>
-		<loc>http://www.mapaDeSitio/Apuntes/ejemplos.html</loc>
+		<loc>http://www.mapaDeSitio/Flex/plantillaFlex.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2022-11-08</lastmod>
 	</url>
