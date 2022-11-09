@@ -70,20 +70,21 @@ aside{
 }
 
 aside a{
-    width: 100%;
+    width: 300px;
     height: 60px;
     color: white;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
-    background-color: blue;
-    
+    background-color: blue;   
+    display: block;
+    border: 1px solid black;
 }
 
 /*-------Main-------*/
 main{
     background-color: lightgray;
-    padding: 20px;
+    padding: 10px;
     flex: 70%;
     flex-wrap: wrap;
 }
