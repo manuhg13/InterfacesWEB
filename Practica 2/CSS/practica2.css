@@ -49,6 +49,10 @@ header > .buscar{
     height: 30px;
     text-align: center;  
 }
+header > .buscar:hover{
+    background-color: #af1119;
+    color: #fad5d3;
+}
 
 header > .boton{
     background-color: crimson;
@@ -58,6 +62,12 @@ header > .boton{
     font-size: 15px;
     padding: 5px;
     margin: 10px;
+    cursor: pointer;
+}
+
+header > .boton:hover{
+    background-color: #af1119;
+    color: #fad5d3;
 }
 /*------------Aside--------------*/
 
@@ -72,13 +82,17 @@ aside{
 aside a{
     width: 300px;
     height: 60px;
-    color: white;
+    color: rgb(253, 253, 253);
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
     background-color: blue;   
     display: block;
     border: 1px solid black;
+}
+aside a:hover{
+    background-color: aquamarine;
+    color: black;
 }
 
 /*-------Main-------*/
@@ -115,4 +129,41 @@ h1{
 article > h3{
     margin: 5px;
 }
+article > a{
+    color: blue;
+}
+
+/*-------------- Footer ------------------------*/
+footer{
+    color: #EDE3E0;
+    background-color: #181F32;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    padding-bottom: 5px;
+    border-top: 2px solid black;
+    
+}
+form{
+    color: black;
+}
+
+footer > div {
+    margin: 10px;
+    flex: 30%;
+    background-color: lightgray;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 10px;
+    
+}
+footer > div >p{
+    color: black;
+}
+
+.columna{
+    flex-direction: column;
+}
+
 
