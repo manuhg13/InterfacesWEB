@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: grid;
+
+    align-content: center;
+    grid-template-columns: 20% auto auto auto ;
+}
+
+img{
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+/*------------Header--------------------*/
+header{
+    padding: 20px;
+    border-bottom: 2px solid black;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+header > div{
+    padding: 10px;
+    margin: 5px;
+}
+
+header .buscar{
+    background-color: crimson;
+    height: 30px;
+    text-align: center; 
+}
+header  #buscador{
+    margin-left: 10px;
+    height: 30px;
+    border: 1px solid red;
+}
+
+header  .boton{
+    background-color: crimson;
+    color: antiquewhite;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    /*margin: 10px;*/
+    cursor: pointer;
+}
+
+header  .boton:hover{
+    background-color: #af1119;
+    color: #fad5d3;
+}
+
+
+
+/*-----------------Aside--------------*/
+aside{
+    background-color: lightgray;
+    padding: 20px;
+
+    grid-area: 2/1/4/2;
+}
