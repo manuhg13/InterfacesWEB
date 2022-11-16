@@ -4,10 +4,10 @@
 <style>
 .grid-container {
     padding: 10px;
-    height: 400px;
+    /*height: 400px;*/
     background-color: green;
     display: grid;
-    grid-gap: 10px;
+    gap: 10px;
     grid-template-columns: auto auto auto;
     align-content: center;
 }
@@ -46,6 +46,7 @@
   <div class="grid-item">7</div>
   <div class="grid-item">8</div>
   <div class="grid-item">9</div>
+  <div class="grid-item">10</div>
 </div> 
 
     <h2>Propiedades del contenedor grid</h2>
@@ -62,7 +63,7 @@
     <p>grid-column-start y grid-column-end indica en qué línea de columna empieza y termina el elemento.</p>
     <p>grid-row-start y grid-row-end indica en qué línea de fila empieza y termina el elemento.</p>
     <p>grid-column indica en qué columnas colocar un elemento. Podemos indicarlo como: inicio/fin | inicio/span numero</p>
-    <p>grid-column indica en qué filas colocar un elemento. Podemos indicarlo como: inicio/fin | inicio/span numero</p>
+    <p>grid-row indica en qué filas colocar un elemento. Podemos indicarlo como: inicio/fin | inicio/span numero</p>
     <p>grid-area auna los dos elementos anteriores: fila inicio/columna inicio / fila fin / columna fin (podemos usar span en cualquiera de ellos). </p>
     
     <h2>Grid template areas</h2>
