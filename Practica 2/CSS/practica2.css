@@ -39,23 +39,23 @@ header{
     border-bottom: 2px solid black;
     
 }
-header > #buscador{
+header > div #buscador{
     margin-left: 10px;
     height: 30px;
     border: 1px solid red;
 }
 
-header > .buscar{
+header > div .buscar{
     background-color: crimson;
     height: 30px;
     text-align: center;  
 }
-header > .buscar:hover{
+header > div .buscar:hover{
     background-color: #af1119;
     color: #fad5d3;
 }
 
-header > .boton{
+header > div .boton{
     background-color: crimson;
     color: antiquewhite;
     width: 100px;
@@ -66,7 +66,7 @@ header > .boton{
     cursor: pointer;
 }
 
-header > .boton:hover{
+header > div .boton:hover{
     background-color: #af1119;
     color: #fad5d3;
 }
