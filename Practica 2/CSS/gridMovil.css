@@ -155,6 +155,21 @@ footer > div {
 footer > div >p{
     color: black;
 }
+/*---------------Formulario-----------------*/
+form > .boton{
+    background-color: crimson;
+    color: antiquewhite;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+form > .boton:hover{
+    background-color: #af1119;
+    color: #fad5d3;
+}
 
 /*--------------------Media Query--------------*/
 
