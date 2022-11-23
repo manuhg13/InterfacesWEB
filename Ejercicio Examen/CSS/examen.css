@@ -55,10 +55,59 @@ header > .segundo{
     align-items: center;
 }
 #silueta{
-    margin: 3px;
+    margin: 5px;
     padding: 5px;
-    background-color: antiquewhite;
+    background-color: white;
 }
 #silueta img{
     width: 30px;
+}
+/*---------Media Querries------*/
+@media screen and (max-width:600px){
+    header{
+        grid-template-rows: auto auto;
+        grid-template-columns: auto auto;
+    }
+    header > .primero{
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    header > h1{
+        grid-area: 2 / 1 / 3 / 3;
+    }
+    header > .segundo{
+        grid-area: 1 / 2 / 2 / 3;
+    }
+    .campo{
+        grid-template-columns: auto;
+        grid-template-rows: 30% auto auto 30%;
+    }
+    .campo >div.portero{
+        grid-area: 4 / 1 / 5 / 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .campo > div.defensa{
+        grid-area: 3 / 1 / 4 / 2;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .campo > div.medios{
+        grid-area: 2 / 1 / 3 / 2;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .campo > div.delanteros{
+        grid-area: 1 / 1 / 2 / 2;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }
