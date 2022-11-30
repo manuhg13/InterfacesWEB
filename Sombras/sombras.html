@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombras</title>
+    <style>
+        /*---Sombra de texto---*/
+        .sombraTexto{
+            text-shadow: 3px 3px 3px black;
+        }
+        /*---Sombra de caja---*/
+        .sombraCaja{
+            box-shadow: 2px 2px 5px black;
+        }
+        /*---Sombra de caja pero por dentro---*/
+        .sombraInterna{
+            box-shadow: inset 2px 2px 5px green;
+        }
+        /*---Sombra de texto, doble si la propiedad es negativa se coloca a la izquierda---*/
+        .sombraDoble{
+            text-shadow:  3px 3px 5px yellow, -3px -3px 5px rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Sombras</h1>
+    <p class="sombraTexto">Sombra en el texto</p>
+    <div class="sombraCaja"><p>Sombra en la caja</p></div>
+    <div class="sombraInterna"><p>Sombra en la caja, pero interna</p></div>
+    <p class="sombraDoble">Sombra doble</p>
+</body>
+</html>
