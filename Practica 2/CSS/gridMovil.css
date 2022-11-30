@@ -131,6 +131,7 @@ article > a{
 }
 article > img{
     grid-area: 1 / 1 / 5 / 2;
+    box-shadow: 3px 3px 3px black;
     
 }
 
