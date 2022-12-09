@@ -1,0 +1,82 @@
+@media print{
+    *{
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-color: lightgray;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    h1, h2, h3, h4, h5{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    p{
+        color: darkgrey;
+    }
+    .rojo{
+        font:bold;
+        color: crimson;
+    }
+    .subrayado{
+        background-color: yellow;
+        
+    }
+    /*--------------IMPORTANTE-------------*/
+    .ordenar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /*-------Main-------*/
+    main{
+        display: flex;
+        background-color: lightgray;
+        padding: 10px;
+        flex: 70%;
+        flex-wrap: wrap;
+    }
+    section{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    article{
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+        background-color: beige;
+        border-radius: 10px;
+        flex: 30%;
+        flex-wrap: wrap;
+        
+    }
+    img{
+        width: 100px;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    h1{
+        border-bottom: 2px solid black;
+    }
+    article > h3{
+        margin: 5px;
+    }
+    article > a{
+        color: blue;
+    }
+
+    header{
+        display: none;
+    }
+
+    aside{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+}
