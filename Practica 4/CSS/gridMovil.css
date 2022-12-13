@@ -90,10 +90,13 @@ aside a{
     background-color: blue;   
     display: block;
     border: 1px solid black;
+    transition: backgroud-color 1s, font-size 1s, border 3s;
 }
 aside a:hover{
     background-color: aquamarine;
     color: black;
+    font-size: 150%;
+    border: 3px solid crimson;
 }
 
 /*------------------------Main------------------------*/
@@ -132,6 +135,13 @@ article > a{
 article > img{
     grid-area: 1 / 1 / 5 / 2;
     box-shadow: 3px 3px 3px black;
+    transition: 0.5s linear;
+    
+}
+article > img:hover{
+    grid-area: 1 / 1 / 5 / 2;
+    box-shadow: 3px 3px 3px black;
+    transform: scale(1.5,1.5);
     
 }
 
