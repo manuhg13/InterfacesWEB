@@ -209,7 +209,7 @@ div.wrapper{
 button{
     background-color: #131313;
     color: #CDD2CC;
-    border: 2px solid #A5D825;
+    border: 2px solid #D12E25;
     padding: 10px 20px;
     margin: 5px;
     text-align: center;
@@ -217,8 +217,8 @@ button{
     display: inline-block;  
 }
 button:hover{
-    background-color: #A5D825;
-    color: #131313;
+    background-color: #D12E25;
+    color: #CDD2CC;
 }
 
 /*------------------------------------------Footer-----------------------------------------*/
@@ -231,12 +231,12 @@ button:hover{
     padding:20px;
     margin-top: 50px;
     color:#98989A; 
-    background-color:#232323;
+    background-color:#152F52;
 }
 
 #footer a{
     color:#FDC609; 
-    background-color:#232323;
+    background-color:#152F52;
 }
 
 #footer h2{
