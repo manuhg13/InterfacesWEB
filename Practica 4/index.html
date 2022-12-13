@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Viewport es una etiqueta impresicindible en las webs responsive. 
+    La función de esta etiqueta es ajustar el la página en relacion al ancho de la pantalla donde se 
+    esté visualizando esta. Por lo tanto es conveniente definir el ancho en la etiqueta como el
+    ancho del dispositivo. También se pondrá la escala en 1 para que mantenga todo su tamaño y nada crezca o disminuya de más-->
+    <meta name="keywords" content="tienda, informatica, tiendadeinformatica, hardware"/>
+    <meta name="author" content="Manuel Hernández"/>
+    <title>Practica 3 || Diseño de interfaces</title>
+    <link rel="shortcut icon" href="Imagenes/4733índice.ico" type="image/x-icon">
+    <!--<link rel="stylesheet" href="CSS/flexEscritorio.css">-->
+    <link rel="stylesheet" media="screen" href="CSS/gridMovil.css">
+    <link rel="stylesheet" media="print" href="CSS/estiloImpresora.css">
+</head>
+<body>
+   
+    <header>
+        <img src="Imagenes/índice-removebg-preview.png" alt="tiendadeinformatica" style="width: 150px;">
+        <div class="search">
+
+            <input type="search" name="buscador" id="buscador" size="30"/>
+            <input type="button" value="&#128269;" class="buscar">
+        </div>
+        <div class="botones">
+            <input type="button" value="Datos" class="boton">
+            <input type="button" value="Carrito" class="boton">     
+        </div>
+    </header>
+
+
+    <div class="ordenar">
+        <aside>
+            <a href="#">Inicio</a>
+            <a href="Formulario/formulario.html">Formulario</a>
+            <a href="#">Noticias</a>
+            <a href="#">Articulos</a>
+        </aside>
+        
+        
+        <main>
+            <h1>Destacados</h1>
+            <section>
+                <article>                    
+                    <img src="Imagenes/Granja-de-minado-en-Iran-1.jpg" alt="minado de cryptomonedas" >
+                    <h3>Descubren granja de minado en Irán</h3>
+                    <p class="subrayado">En la capital de Irán, encuentran varias granjas de minado que generarian alrededor de 250.000$</p>
+                    <a href="#">Leer más ...</a>
+                </article>
+        
+                <article>
+                    <img src="Imagenes/NVIDIA-GeForce-RTX-4090-Oficial.jpg" alt="NVIDIA-GeForce-RTX-4090" >
+                    <h3>El "Boom" de las 4090</h3>
+                    <p>Tras su salida, las gráficas de NVIDIA han causado conmocion en las redes sociales.</p>
+                    <a href="#">Leer más ...</a>
+                </article>
+
+                <article>
+                    <img src="Imagenes/Samsung S23.jpeg" alt="Samsung S23" width="40%">
+                    <h3>Así se ve el nuevo Samsung S23</h3>
+                    <p>Nuevos datos y caracteristicas del buque insignia de la marca coreana</p>
+                    <a href="#">Leer más ...</a>
+                </article>
+            </section>
+            <h1>Otros artículos</h1>
+            <section>
+                <article>
+                    <img src="Imagenes/xiaomi.jpg" alt="Xiaomi Civi 2" >
+                    <h3>El nuevo gama media de Xiaomi</h3>
+                    <p>Xiaomi Civi 2, el smartphone gama media del gigante chino</p>
+                    <a href="#">Leer más ...</a>
+                </article>
+                    
+                <article>
+                    <img src="Imagenes/Las-fases-del-desarrollo-de-una-web.jpg" alt="Imagen generica de DAW">
+                    <h3>El bootcamp en desarrollo web de Codenotch revoluciona la enseñanza</h3>
+                    <p>A través del bootcamp en desarrollo web y móvil que ofrece Codenotch, es posible convertirse en un profesional de esta área y aprender a diseñar aplicaciones con las tecnologías más demandadas del mercado actual. </p>
+                    <a href="#">Leer más ...</a>
+                </article>
+                    
+                <article>
+                    <img src="Imagenes/pexels-rodrigo-santos-3888151_800-grande.png" alt="Imagen generica de DAW">
+                    <h3>Curso de desarrollo web para los refugiados</h3>
+                    <p>La asociación Madrid For Refugees abre la convocatoria para este nuevo curso en modalidad híbrida que comenzará a finales de noviembre. </p>
+                    <a href="#">Leer más ...</a>
+                </article>
+            </section>   
+        </main>    
+    </div>
+
+        <footer >
+            <div class="columna">
+                <p><b>Datos de la tienda</b></p>
+                <p>Mi tienda de informática</p>
+                <p>C/Falsa nº123 </p>
+                <p>49158 Zamora</p>
+                
+            </div>
+            
+            <div class="columna">
+                <p><b>Suscribete</b></p>
+                <form class="columna">
+                    <p>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </p>                
+                    <p>
+                        <label for="email">Correo</label>
+                        <input type="email" name="email" id="email">
+                    </p>
+                </form>
+            </div>
+            <div class="columna">
+                <p><b>Redes sociales</b></p>
+                <a href="https://www.instagram.com/"><img src="Imagenes/icono insta.png" alt="insta" width="20px"></a>
+                <a href="https://twitter.com/?lang=es"><img src="Imagenes/icono twitter.png" alt="Twitter" width="25px"></a>
+            </div>
+        </footer>
+</body>
+</html>

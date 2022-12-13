@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: grid;
+
+    align-content: center;
+    
+    
+    
+    grid-template-columns: 30% auto auto auto ;
+}
+
+
+img{
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+/*------------Header--------------------*/
+header{
+    padding: 20px;
+    border-bottom: 2px solid black;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    align-items: center;
+
+    grid-area: 1 / 1 / 2 / 5
+    
+}
+header > div.search{
+    padding: 10px;
+    margin: 5px;
+    grid-area: 1 / 2 / 2 / 3;
+}
+header > div.botones{
+    padding: 10px;
+    margin: 5px;
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+header .buscar{
+    background-color: crimson;
+    height: 30px;
+    text-align: center; 
+}
+header  #buscador{
+    margin-left: 10px;
+    height: 30px;
+    border: 1px solid red;
+}
+
+header  .boton{
+    background-color: crimson;
+    color: antiquewhite;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    /*margin: 10px;*/
+    cursor: pointer;
+}
+
+header  .boton:hover{
+    background-color: #af1119;
+    color: #fad5d3;
+}
+
+
+/*-----------------Aside--------------*/
+aside{
+    background-color: lightgray;
+    padding: 20px;
+    grid-area: 1 / 1 / 5 / 2;
+}
+aside a{
+    width: 100%;
+    height: 60px;
+    color: rgb(253, 253, 253);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color: blue;   
+    display: block;
+    border: 1px solid black;
+}
+aside a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+/*------------------------Main------------------------*/
+.ordenar{
+    grid-area: 2 / 1 / 4 / 5;
+    display: grid;
+    grid-template-columns: 30% auto auto auto;
+}
+main{
+    display: grid;
+    grid-area:  1 / 2 / 4 / 5;
+}
+section{
+    display: grid;
+}
+article{
+    padding: 10px;
+    margin: 10px;
+    background-color: beige;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+article > h3{
+    margin: 5px;
+    grid-area: 1 / 2 / 2 / 4;
+}
+article > p{
+    
+    grid-area: 2 / 2 / 3 / 4;
+}
+article > a{
+    color: blue;
+    grid-area: 3 / 2 / 4 / 4;
+}
+article > img{
+    grid-area: 1 / 1 / 5 / 2;
+    box-shadow: 3px 3px 3px black;
+    
+}
+
+
+/*-----------------Footer--------------------*/
+footer{
+    color: #EDE3E0;
+    background-color: #181F32;
+    justify-content: space-around;
+    padding-bottom: 5px;
+    border-top: 2px solid black;
+    grid-area:  4 / 1 / 5 / 5;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+footer > div {
+    margin: 5px;
+    flex: 30%;
+    background-color: lightgray;
+    padding: 10px;
+}
+footer > div >p{
+    color: black;
+}
+/*---------------Formulario-----------------*/
+form > .boton{
+    background-color: crimson;
+    color: antiquewhite;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+form > .boton:hover{
+    background-color: #af1119;
+    color: #fad5d3;
+}
+
+/*--------------------Media Query--------------*/
+
+@media screen and (min-width: 768px){
+    section{
+        grid-template-columns: 33% 33% 33% ;
+    }
+    article{
+        grid-template-rows: auto auto auto auto;
+    }
+    article > h3{
+        grid-area: 2 / 1 / 3 / 4;
+    }
+    article > p{
+        grid-area: 3 / 1 / 4 / 4;
+    }
+    article > a{
+        grid-area: 4 / 1 / 5 / 4;
+    }
+    article > img{
+        grid-area: 1 / 1 / 2 / 4;
+        
+    }
+}
+@media screen and (max-width: 600px){
+    header{
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+    header > img{
+        grid-area: 1 / 1 / 2 / 4;
+    }
+    header > div.search{
+        grid-area: 2 / 1 / 3 / 2;
+    } 
+    header > div.botones{
+        grid-area: 3 / 1 / 4 / 2;
+    } 
+    .ordenar{
+        grid-template-columns: auto auto auto auto;
+    }
+    aside{
+        grid-area: 1/ 1 /2 / 5;
+    }
+    main{
+        grid-area: 2/2/4/5;
+    }
+
+    footer{
+        
+        grid-template-rows: auto auto auto;
+    }
+}

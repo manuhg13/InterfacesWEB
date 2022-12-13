@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="tienda, informatica, tiendadeinformatica, hardware, Formulario"/>
+    <link rel="stylesheet" href="../CSS/flexEscritorio.css">
+    <!--<link rel="stylesheet" href="../CSS/gridMovil.css">-->
+    <meta name="author" content="Manuel Hernández"/>
+    <title>Formulario || Tarea 2</title>
+</head>
+<body>
+    <form action="enviar.php" method="get">
+        <fieldset>
+            <label for="Articulo">Artículo: </label>
+            <input type="text" id="Articulo" maxlength="100" minlength="5">
+            <br>
+            <br>
+            <label for="descripcion">Descripción: </label>
+            <br>
+            <textarea name="descripcion" id="descripcion" cols="30" rows="10" required="required"></textarea>
+        </fieldset>
+        <fieldset>
+            <label for="destacado">Producto destacado: </label>
+            <input type="checkbox" name="destacado" id="destacado">
+            <br>
+            <br>
+            <label for="Hardware">Hardware:</label>
+            <input type="radio" id="Hardware" name="producto" value="Hardware" required="required">
+            <select name="Hardware" id="tiposHardware">
+                <option value="Componentes">Componentes</option>
+                <option value="Perifericos">Perifericos</option>
+                <option value="Cableado">Cableado</option>
+                <option value="Equipos">Equipos</option>
+            </select>
+            <br>
+            <br>
+            <label for="Software">Software:</label>
+            <input type="radio" id="Software" name="producto" value="Software" required="required">
+            <br>
+            <br>
+            <label for="Servicios">Servicios:</label>
+            <input type="radio" id="Servicios" name="producto" value="Servicios" required="required">
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar datos" class="boton">
+        <input type="reset" value="Limpiar datos" class="boton">
+    </form>
+</body>
+</html>
