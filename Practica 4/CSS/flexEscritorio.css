@@ -130,7 +130,7 @@ img{
     transition: 0.5s linear;
 }
 img:hover{
-    transform: scale(1.5,1.5);
+    transform: scale(1.2,1.2);
 }
 h1{
     border-bottom: 2px solid black;

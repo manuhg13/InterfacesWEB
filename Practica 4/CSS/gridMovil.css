@@ -141,7 +141,7 @@ article > img{
 article > img:hover{
     grid-area: 1 / 1 / 5 / 2;
     box-shadow: 3px 3px 3px black;
-    transform: scale(1.5,1.5);
+    transform: scale(1.2,1.2);
     
 }
 
