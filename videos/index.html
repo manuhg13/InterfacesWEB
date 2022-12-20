@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONO</title>
+</head>
+<body>
+    <video  width="800px" height="600px"  controls loop muted> 
+        <source src="Monkey - 78482.mp4" type="video/mp4">
+    </video>
+<br>
+    <audio id="audio" controls>
+        <source src="latin-jazz-two-octaves-piano-1846.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        
+        let miaudio=document.getElementById('audio');
+        miaudio.volume=0.4;
+        let duracion= parseFloat(miaudio.duration) +1;
+        let p=document.createElement('p');
+        p.appendChild(document.createTextNode("Duracion: " + (duracion)));
+        document.body.appendChild(p);
+    </script>
+</body>
+</html>
