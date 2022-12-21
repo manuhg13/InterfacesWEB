@@ -8,8 +8,7 @@ const mivideo=document.getElementById('idvideo');
             document.getElementById('vel').addEventListener('click',speed);
             document.getElementById('sound').addEventListener('click',sonido);
             document.getElementById('selReso').addEventListener('click',resolucion)
-            /*document.getElementById('res1').addEventListener('click',reso1);
-            document.getElementById('res2').addEventListener('click',reso2);*/
+            
         }
         
 
@@ -44,12 +43,17 @@ const mivideo=document.getElementById('idvideo');
             }
         }
         function resolucion() {
-            
+            let tiempo=mivideo.currentTime;
             if (this.value=='Resolucion HD'){
-                mivideo.src="gallomenor.mp4"
+                mivideo.src="gallomenor.mp4";
+            }else if (this.value=='Resolucion Original FHD') {
+                mivideo.src='Gallo - 8386.mp4';
+        
             }else if(this.value=='Resolucion SD'){
-                mivideo.src="gallopocho.mp4"
+                mivideo.src="gallopocho.mp4";
             }
+            mivideo.currentTime=tiempo;
+            mivideo.play();
         }
         
         
