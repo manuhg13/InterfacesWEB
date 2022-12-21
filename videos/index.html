@@ -7,22 +7,20 @@
     <title>MONO</title>
 </head>
 <body>
-    <video  width="800px" height="600px"  controls loop muted> 
+    <video  width="800px" height="600px" id="idvideo" controls loop muted> 
         <source src="Monkey - 78482.mp4" type="video/mp4">
     </video>
 <br>
+<br>
+    <input type="button" value="Play" id="play">
+    <input type="button" value="Pausar" id="pausa" >
+    <input type="button" value="" id="restart" >
+    <br>
+    <br>
     <audio id="audio" controls>
         <source src="latin-jazz-two-octaves-piano-1846.mp3" type="audio/mpeg">
     </audio>
 
-    <script>
-        
-        let miaudio=document.getElementById('audio');
-        miaudio.volume=0.4;
-        let duracion= parseFloat(miaudio.duration) +1;
-        let p=document.createElement('p');
-        p.appendChild(document.createTextNode("Duracion: " + (duracion)));
-        document.body.appendChild(p);
-    </script>
+    <script src="esto.js"></script>
 </body>
 </html>
