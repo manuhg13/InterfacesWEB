@@ -2,8 +2,9 @@ const mivideo=document.getElementById('idvideo');
         window.addEventListener('load',iniciar,false);
 
         function iniciar() {
-            let b1=document.getElementById('play').addEventListener('click',repro);
-            let b2=document.getElementById('pausa').addEventListener('click',pausar);
+            document.getElementById('play').addEventListener('click',repro);
+            document.getElementById('pausa').addEventListener('click',pausar);
+            document.getElementById('restart').addEventListener('click',restart);
         }
         
 
@@ -13,6 +14,9 @@ const mivideo=document.getElementById('idvideo');
 
         function pausar() {
             mivideo.pause()
+        }
+        function restart() {
+            mivideo.load()
         }
         
         let miaudio=document.getElementById('audio');
