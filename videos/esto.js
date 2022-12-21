@@ -2,10 +2,8 @@ const mivideo=document.getElementById('idvideo');
         window.addEventListener('load',iniciar,false);
 
         function iniciar() {
-            let b1=document.getElementById('play')
-            b1.addEventListener('click',repro);
-            let b2=document.getElementById('pausa')
-            b2.addEventListener('click',pausar);
+            let b1=document.getElementById('play').addEventListener('click',repro);
+            let b2=document.getElementById('pausa').addEventListener('click',pausar);
         }
         
 
