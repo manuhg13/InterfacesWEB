@@ -1,8 +1,5 @@
-$(document).ready(function () {
 
-});
-
-$("#img1").dblclick(function () { 
-    $("#img1").hide();    
+$('div').click(function () { 
+    $("#img1").animate({bottom: '250px'});    
 });
 
