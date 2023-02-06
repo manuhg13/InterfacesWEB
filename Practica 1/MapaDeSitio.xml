@@ -6,9 +6,9 @@
 		<lastmod>2022-11-08</lastmod>
 	</url>
 	<url>
-		<loc>http://www.mapaDeSitio/Ejercicio Examen</loc>
+		<loc>http://www.mapaDeSitio/Practica 2</loc>
 		<priority>0.75</priority>
-		<lastmod>2022-11-23</lastmod>
+		<lastmod>2022-11-30</lastmod>
 	</url>
 	<url>
 		<loc>http://www.mapaDeSitio/Practica 1</loc>
@@ -16,12 +16,22 @@
 		<lastmod>2022-11-02</lastmod>
 	</url>
 	<url>
-		<loc>http://www.mapaDeSitio/Practica 2</loc>
+		<loc>http://www.mapaDeSitio/Ejercicio Examen</loc>
 		<priority>0.75</priority>
+		<lastmod>2022-11-23</lastmod>
+	</url>
+	<url>
+		<loc>http://www.mapaDeSitio/JQuery/calculadora</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-02-06</lastmod>
+	</url>
+	<url>
+		<loc>http://www.mapaDeSitio/Sombras/sombras.html</loc>
+		<priority>0.50</priority>
 		<lastmod>2022-11-30</lastmod>
 	</url>
 	<url>
-		<loc>http://www.mapaDeSitio/Flex/plantillaFlex.html</loc>
+		<loc>http://www.mapaDeSitio/Apuntes/ejemplos.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2022-11-08</lastmod>
 	</url>
@@ -31,19 +41,9 @@
 		<lastmod>2022-11-02</lastmod>
 	</url>
 	<url>
-		<loc>http://www.mapaDeSitio/Apuntes/ejemplos.html</loc>
+		<loc>http://www.mapaDeSitio/Flex/plantillaFlex.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2022-11-08</lastmod>
-	</url>
-	<url>
-		<loc>http://www.mapaDeSitio/Sombras/sombras.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-11-30</lastmod>
-	</url>
-	<url>
-		<loc>http://www.mapaDeSitio/JQuery/calculadora</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-02-06</lastmod>
 	</url>
 	<url>
 		<loc>http://www.mapaDeSitio/Practica 1/Formulario/formulario.html</loc>
