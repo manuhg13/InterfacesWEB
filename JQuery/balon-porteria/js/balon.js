@@ -1,6 +1,5 @@
 $(document).ready(function () {
-    $("#balon").click(function (e) { 
-        e.preventDefault();
+    $("#balon").click(function () { 
         
         $(this).animate({
             position: 'absolute',
