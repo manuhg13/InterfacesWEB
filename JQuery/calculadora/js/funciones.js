@@ -2,8 +2,8 @@ $(document).ready(function () {
     let valor="0";
     let operacion="";
 
-    $('button').click(function (e) { 
-        e.preventDefault();
+    $('button').click(function () { 
+        
         if ($(this).text().match(/[0-9]+/)){
             if(valor==="0"){
                 valor=$(this).text();
