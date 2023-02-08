@@ -28,7 +28,22 @@ body{
   padding: 14px 16px;
   text-decoration: none;
 }
+.items-lista div{
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .items-lista a:hover{
+   background-color: lightgray;
+   color: black;
+   font-weight:bold;
+   border: 1px solid black;
+}
+.items-lista div:hover{
    background-color: lightgray;
    color: black;
    font-weight:bold;
