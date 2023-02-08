@@ -29,7 +29,7 @@ const mivideo=document.getElementById('idvideo');
             contadorVel++
             
             if(contadorVel==2) {
-                mivideo.plabackRate=2
+                mivideo.playbackRate=2
             }else if(contadorVel>2){
                 contadorVel=0;
             }
